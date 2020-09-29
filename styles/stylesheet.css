@@ -97,7 +97,7 @@ a.active,a:hover {
     }
 }
 section {
-    background: url("images/bg.jpg") no-repeat;
+    background: url("poopsterz/images/bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: calc(100vh - 80px);

@@ -7,9 +7,11 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url("/images/mountains-9.jpg") no-repeat;
+    color: #F7F6F4;
+    background: url("../images/mountains-9.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;;
     height: 100vh;
 }
 nav {
@@ -59,25 +61,12 @@ a.active,a:hover {
     cursor: pointer;
     display: none;
 }
-.content {
-    color: #F7F6F4;
-    background: rgba(123, 112, 98, 0.7); /* need to make transparent without affecting text */
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    width: 1000px;
-    border-radius: 3px;
-}
 #check {
     display: none;
 }
 #current {
     border-radius: 3px;
     background: #1A62A3 /* old color#1b9bff*/;
-}
-@media (max-width: 1070px) {
-    .content {
-        width: 800px;
 }
 @media (max-width: 1041px) {
     label.logo {
@@ -89,11 +78,6 @@ a.active,a:hover {
     }
 }
 @media (max-width: 942px) {
-    .content {
-        width: 100%;
-        padding: 0 20px;
-        background: rgba(123, 112, 98, 0.0);
-    }
     .checkbtn {
         display: block;
     }
@@ -103,7 +87,7 @@ a.active,a:hover {
     label.logo {
         text-align: left;
     }
-    ul {
+    nav ul {
         position: fixed;
         width: 100%;
         height: 100vh;

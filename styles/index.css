@@ -77,3 +77,31 @@ section {
     background-position: center;
     background-size: auto 100%;
 }
+
+#statement {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    background: url("../images/mountains-9.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#statement h1, #statement p {
+    padding: 30px;
+    background-color: rgba(0,0,0,0.3);
+}
+#statement h1 {
+    font-size: 40px;
+    padding: 40px 30px 0px 30px;
+}
+#statement p {
+    line-height: 30px;
+    padding: 0 20px 40px 20px;
+    font-size: 20px;
+}
+#poopsters {
+    font-family: "Reenie Beanie";
+    font-size: 35px;
+}

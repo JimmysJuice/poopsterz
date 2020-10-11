@@ -1,6 +1,7 @@
 section {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
 }
 
 .grid {
@@ -100,8 +101,27 @@ section {
     line-height: 30px;
     padding: 0 20px 40px 20px;
     font-size: 20px;
+    text-align: justify;
 }
 #poopsters {
     font-family: "Reenie Beanie";
     font-size: 35px;
 }
+
+@media (max-width: 942px) {
+    #statement {
+        border-radius: 0;
+        padding: 0;
+    }
+    #statement h1 {
+        font-size: 30px;
+    }
+}
+/*
+@media (max-width: 366) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+*/

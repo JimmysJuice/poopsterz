@@ -8,14 +8,13 @@
 body {
     font-family: 'Open Sans';
     color: #F7F6F4;
-    background: url("../images/mountains-9.jpg") no-repeat;
+    background: url("../images/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
 }
 nav {
-    /* background: #0082e6; */
     height: 150px;
     width: 100%;
     z-index: 1;
@@ -33,7 +32,6 @@ label.logo {
     margin-top: 20px;
 }
 nav ul {
-    /*float: right;*/
     text-align: center;
     margin-right: 20px;
 }
@@ -69,7 +67,7 @@ a.active,a:hover {
 }
 #current {
     border-radius: 3px;
-    background: #1A62A3 /* old color#1b9bff*/;
+    background: #1A62A3;
 }
 
 @media (max-width: 942px) {

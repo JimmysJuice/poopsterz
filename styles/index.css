@@ -36,6 +36,7 @@ section {
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
     background-position: center;
     background-size: auto 100%;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .tile:hover {
@@ -44,40 +45,112 @@ section {
 }
 
 .tile h1, .tile p {
-    padding: 20px 20px 0 20px;
+    padding: 5px;
+}
+.tile-header {
+    display: flex;
+    height: 45%;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px 10px 0 0;
+}
+.tile-footer {
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+.title-top {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.title-bottom {
+    display: flex;
+    align-items: top;
+    justify-items: center;
+}
+.title h1 {
+    font-size: 22px;
+}
+.title p {
+    font-size: 13px;
+    font-style: italic;
+}
+.title ul {
+    display: flex;
+    flex-direction: column;
+
+}
+.title li {
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-style: italic;
+}
+.tile-footer h3 {
+    font-size: 18px;
+    letter-spacing: .1px;
 }
 
+.img-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5px;
+    
+}
+.img {
+    height: 115px;
+    width: 115px;
+    border-radius: 10%;
+}
+.title{
+    width:60%;
+    height: 100%;
+}
 .img-1 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/couch.jpg);
+    background: url(../images/Marc.jpg);
     background-position: center;
     background-size: auto 100%;
 }
 .img-2 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/coffee.jpg);
+    background: url(../images/Hayden.jpg);
     background-position: center;
     background-size: auto 100%;
 }
 .img-3 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/face.jpg);
+    background: url(../images/Dani.jpg);
     background-position: center;
     background-size: auto 100%;
-    
 }
 .img-4 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/mountains-1.jpg);
+    background: url(../images/Brick-Wall.jpg);
     background-position: center;
     background-size: auto 100%;
 }
 .img-5 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/mountains-2.jpg);
+    background: url(../images/Brick-Wall.jpg);
     background-position: center;
     background-size: auto 100%;
 }
 .img-6 {
-    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(../images/mountains-3.jpg);
+    background: url(../images/Corey.jpg);
     background-position: center;
     background-size: auto 100%;
 }
+
+
 
 #statement {
     width: 1000px;
@@ -85,7 +158,7 @@ section {
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
-    background: url("../images/mountains-9.jpg") no-repeat;
+    background: url("../images/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -94,11 +167,11 @@ section {
     background-color: rgba(0,0,0,0.3);
 }
 #statement h1 {
-    font-size: 40px;
+    font-size: 32px;
     padding: 40px 30px 0px 30px;
 }
 #statement p {
-    line-height: 30px;
+    line-height: 28px;
     padding: 0 20px 40px 20px;
     font-size: 20px;
     text-align: justify;

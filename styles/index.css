@@ -29,19 +29,10 @@ section {
     width: 328px;
     height: 328px;
     position: relative;
-    cursor: pointer;
     border-radius: 10px;
-    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
-    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
     background-position: center;
     background-size: auto 100%;
     background-color: rgba(0,0,0,0.3);
-}
-
-.tile:hover {
-    transform: scale(1.05);
-    
 }
 
 .tile h1, .tile p {
@@ -114,6 +105,12 @@ section {
     height: 115px;
     width: 115px;
     border-radius: 10%;
+    /*-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;*/
+}
+.img:hover {
+    cursor: pointer;
 }
 .title{
     width:60%;
@@ -153,7 +150,7 @@ section {
 
 
 #statement {
-    width: 1000px;
+    width: 1073px;
     padding: 20px;
     margin: 0 auto;
     border-radius: 10px;

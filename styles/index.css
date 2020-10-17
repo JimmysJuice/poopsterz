@@ -1,9 +1,3 @@
-section {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-}
-
 .grid {
     margin: 20px 0 0 0;
     padding: 0;
@@ -46,10 +40,12 @@ section {
 }
 .tile-footer {
     height: 55%;
+    padding: 40px;
     display: flex;
+    align-content: center;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-items: center;*/
 }
 .title {
     display: flex;
@@ -89,6 +85,7 @@ section {
 .tile-footer h3 {
     font-size: 18px;
     letter-spacing: .1px;
+    margin: auto;
 }
 
 .img-container{
@@ -98,13 +95,13 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 5px;
+    left: 7px;
     
 }
 .img {
     height: 115px;
     width: 115px;
-    border-radius: 10%;
+    border-radius: 7px;
     /*-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;*/

@@ -18,6 +18,13 @@ nav {
     height: 150px;
     width: 100%;
     z-index: 1;
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
 }
 
 label.logo {
@@ -76,6 +83,7 @@ a.active,a:hover {
     }
     nav {
         height: 90px;
+        margin-bottom: 0;
     }
     label.logo {
         text-align: left;
